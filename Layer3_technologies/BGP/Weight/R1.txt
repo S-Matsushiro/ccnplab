@@ -1,16 +1,16 @@
 int f0/0
 ip add 10.12.1.1 255.255.255.0
 no sh
-int f0/1
+int f1/0
 ip add 10.13.1.1 255.255.255.0
 no sh
-int f1/0
+int f2/0
 ip add 172.16.1.2 255.255.255.0
 no sh
-int f1/1
+int f3/0
 ip add 172.16.2.2 255.255.255.0
 no sh
-int f1/2
+int f4/0
 ip add 172.16.3.2 255.255.255.0
 no sh
 int lo0
